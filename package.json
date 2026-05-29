@@ -1,0 +1,14 @@
+{
+  "name": "front-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium browser-based frontend development sandbox.",
+  "scripts": {
+    "serve": "python3 -m http.server 8765",
+    "test": "playwright test",
+    "test:visual": "playwright test tests/front-sandbox.visual.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
